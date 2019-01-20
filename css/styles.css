@@ -1,0 +1,27 @@
+:root {
+
+    --color-statusbar: #e0e0e0;
+    --color-appbar: #f5f5f5;   
+    --color-background: #fafafa;
+    --color-card: #fff;
+    --color-text-primary:  rgba( 0,0,0, 0.87 );
+    --color-text-secondary: rgba( 0,0,0, 0.54 );
+    --color-text-disabled: rgba( 0,0,0, 0.38 );
+   
+}
+
+
+html {
+    font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: var( --color-background );
+    margin: 1em;  
+}
+
+
